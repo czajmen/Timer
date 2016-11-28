@@ -33,7 +33,7 @@
                 android:text="+"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/button12"
+                android:id="@+id/m1p"
                 android:layout_weight="1"
                 style="@style/Widget.AppCompat.Button.Small" />
 
@@ -41,7 +41,7 @@
                 android:text="0"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/textView3"
+                android:id="@+id/m1"
                 android:layout_weight="1"
                 android:textSize="30sp"
                 android:textAlignment="center" />
@@ -50,7 +50,7 @@
                 android:text="-"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/button16"
+                android:id="@+id/m1m"
                 android:layout_weight="1" />
         </LinearLayout>
 
@@ -65,14 +65,14 @@
                 android:text="+"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/button13"
+                android:id="@+id/m2p"
                 android:layout_weight="1" />
 
             <TextView
                 android:text="0"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/textView7"
+                android:id="@+id/m2"
                 android:layout_weight="1"
                 android:textAlignment="center"
                 android:textSize="30sp" />
@@ -81,7 +81,7 @@
                 android:text="-"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/button17"
+                android:id="@+id/m2m"
                 android:layout_weight="1" />
 
         </LinearLayout>
@@ -108,14 +108,13 @@
                 android:text="+"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/button14"
-                android:layout_weight="1" />
+                android:id="@+id/s1p" />
 
             <TextView
                 android:text="0"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/textView5"
+                android:id="@+id/s1"
                 android:layout_weight="1"
                 android:textAlignment="center"
                 android:textSize="30sp" />
@@ -124,7 +123,7 @@
                 android:text="-"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/button19"
+                android:id="@+id/s1m"
                 android:layout_weight="1" />
         </LinearLayout>
 
@@ -138,14 +137,14 @@
                 android:text="+"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/button15"
+                android:id="@+id/s2p"
                 android:layout_weight="1" />
 
             <TextView
                 android:text="0"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/textView6"
+                android:id="@+id/s2"
                 android:layout_weight="1"
                 android:textAlignment="center"
                 android:textSize="30sp" />
@@ -154,13 +153,11 @@
                 android:text="-"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/button18"
+                android:id="@+id/s2m"
                 android:layout_weight="1" />
 
 
-
-
-    </LinearLayout>
+        </LinearLayout>
 
     </LinearLayout>
 
@@ -180,21 +177,21 @@
                 android:text="Start"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/button24"
+                android:id="@+id/start"
                 android:layout_weight="1" />
 
             <Button
                 android:text="Pause"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/button23"
+                android:id="@+id/pause"
                 android:layout_weight="1" />
 
             <Button
                 android:text="Stop"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/button22"
+                android:id="@+id/stop"
                 android:layout_weight="1" />
         </LinearLayout>
     </LinearLayout>
